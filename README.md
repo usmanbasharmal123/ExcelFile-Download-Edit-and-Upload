@@ -60,15 +60,15 @@ Screenshots of ExtentReports and Allure Reports are included in the reports/ fol
        driver.findElement(By.id("login")).click();
        Assert.assertTrue(driver.getTitle().contains("Dashboard"));
    }
-
+```
 ## Excel Utility Example
- ```@Test
+``` @Test
    public void excelReadTest() {
        ExcelUtils excel = new ExcelUtils("testdata.xlsx");
        String value = excel.getCellData("LoginData", "Username", 1);
        Assert.assertEquals(value, "testuser");
    }
-
+```
 
 📘 Documentation
 Framework Overview
