@@ -61,5 +61,5 @@ Dockerized test execution
 Parallel test runs with Selenium Grid
 
 👤 Author
-Usman 📍 Jacksonville, FL 🔗 [LinkedIn](https://www.linkedin.com/in/basharmal-safi-63b172392/edit/forms/project/new/?profileFormEntryPoint=GUIDANCE_CARD) | Portfolio
+Usman 📍 Jacksonville, FL 🔗 [LinkedIn](https://www.linkedin.com/in/basharmal-safi-l) | Portfolio
 
