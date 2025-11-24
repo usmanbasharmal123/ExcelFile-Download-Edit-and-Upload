@@ -51,22 +51,25 @@ ExcelFile-Download-Edit-and-Upload/ ├── src/ │ ├── test/java │ �
 Screenshots of ExtentReports and Allure Reports are included in the reports/ folder. Recruiters can preview test execution results without running the framework.
 
 ## UI Test Example
+
  ```@Test
-public void loginTest() {
-    driver.get("https://example.com/login");
-    driver.findElement(By.id("username")).sendKeys("user");
-    driver.findElement(By.id("password")).sendKeys("pass");
-    driver.findElement(By.id("login")).click();
-    Assert.assertTrue(driver.getTitle().contains("Dashboard"));
-}
+   public void loginTest() {
+       driver.get("https://example.com/login");
+       driver.findElement(By.id("username")).sendKeys("user");
+       driver.findElement(By.id("password")).sendKeys("pass");
+       driver.findElement(By.id("login")).click();
+       Assert.assertTrue(driver.getTitle().contains("Dashboard"));
+   }
 
 ## Excel Utility Example
  ```@Test
-public void excelReadTest() {
-    ExcelUtils excel = new ExcelUtils("testdata.xlsx");
-    String value = excel.getCellData("LoginData", "Username", 1);
-    Assert.assertEquals(value, "testuser");
-}
+   public void excelReadTest() {
+       ExcelUtils excel = new ExcelUtils("testdata.xlsx");
+       String value = excel.getCellData("LoginData", "Username", 1);
+       Assert.assertEquals(value, "testuser");
+   }
+
+
 📘 Documentation
 Framework Overview
 
