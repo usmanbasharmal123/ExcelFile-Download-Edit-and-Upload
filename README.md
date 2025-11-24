@@ -88,14 +88,13 @@ Performance testing with JMeter
 
 AI-driven test case generation
 
-👨‍💻 Author
-Usman (Basharmal Safi)
 
-QA Automation Engineer | Java + Selenium | CI/CD | API Testing
 
-LinkedIn Profile
+Parallel test runs with Selenium Grid
 
-GitHub Portfolio
+👤 Author
+Basharmal Safi 📍 Jacksonville, FL 🔗 [LinkedIn](https://www.linkedin.com/in/basharmal-safi-l) | Portfolio
+
 
 🌟 Recruiter Highlights
 Demonstrates real-world automation skills with CI/CD integration.
@@ -104,6 +103,3 @@ Includes professional documentation for team onboarding.
 
 Showcases Excel utilities, UI automation, and reporting in one framework.
 
-
-
-## 📂 Project Structure
