@@ -21,7 +21,13 @@ It showcases **data-driven testing**, **CI/CD integration**, and **professional 
 - **Utilities**: Apache POI (Excel), Dynamic XPath strategies  
 - **Reporting**: ExtentReports / Allure  
 ---
-ExcelFile-Download-Edit-and-Upload/ ├── src/ │ ├── test/java │ │ ├── base/ # Driver setup & teardown │ │ ├── tests/ # UI + Excel test cases │ │ ├── utilities/ # ExcelUtils, ConfigReader, DynamicXPath │ └── main/resources # Configs & test data ├── reports/ # Auto-generated test reports ├── ci-cd/ # Jenkinsfile / GitHub Actions workflows ├── docs/ # Documentation & onboarding guides ├── pom.xml └── README.md
+---
+
+## 📂 Project Structure    
+├── src │ ├── main │ │ ├── java │ │ │ └── framework (core utilities, locators, Excel handlers) │ ├── test │ │ └── java (test cases) ├── reports (ExtentReports output) ├── pom.xml (Maven dependencies) └── README.md
+
+---
+
 ---
 
 ## 📂 Project Structure
